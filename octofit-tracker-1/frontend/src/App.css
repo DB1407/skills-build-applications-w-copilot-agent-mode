@@ -1,0 +1,49 @@
+/* Custom styles for the Octofit Tracker React app */
+
+/* General styles */
+body {
+    background-color: #f8f9fa; /* Light background for better contrast */
+    font-family: Arial, sans-serif; /* Consistent font across the app */
+}
+
+/* Navbar styles */
+.navbar {
+    margin-bottom: 20px; /* Space below the navbar */
+}
+
+/* Card styles */
+.card {
+    margin: 15px 0; /* Space between cards */
+}
+
+/* Table styles */
+.table {
+    margin: 20px 0; /* Space above and below tables */
+}
+
+/* Button styles */
+.btn {
+    margin-right: 10px; /* Space between buttons */
+}
+
+/* Modal styles */
+.modal-header {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white; /* White text for contrast */
+}
+
+.modal-footer {
+    background-color: #f1f1f1; /* Light footer for modals */
+}
+
+/* Form styles */
+.form-group {
+    margin-bottom: 15px; /* Space between form fields */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .navbar {
+        text-align: center; /* Center navbar items on small screens */
+    }
+}
